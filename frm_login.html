@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link href="estilos.css" rel="stylesheet">
+        <title> Formulario registro </title>
+    </head>
+
+<!--formularios registrar-->
+    <body>
+        <section class="form-register">
+            <h4>Formulario registro</h4>
+            <label for="nombre">Ingrese su nombre:</label> 
+            <input type="text" name="nombre"required> <br>
+            <label for="apellido">Ingrese su apellido:</label> 
+            <input type="text" name="apellido"required> <br>
+            <label for="telefono">Ingrese su número de telefóno:</label> 
+            <input type="tel" name="telefono"required> <br>
+            <label for="correo">Ingrese su correo electrónico:</label> 
+            <input type="email" name="correo" required> <br>
+            <input type="submit" value"Enviar"> <br>
+            <br>
+            <br>
+        </section> 
+    </body>
+</html>
+
+<!--formularios login-->
+    <body>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="estilos.css" rel="stylesheet">
+        <title> Formulario Ingresar </title>
+    </head>
+
+    <body>
+        <section class="form-login">
+            <h4>Formulario Ingresar</h4>
+            <label for="correo">Ingrese su correo electrónico:</label> 
+            <input type="email" name="correo" required> <br>
+            <label for="contraseña">Ingrese su contaseña:</label> 
+            <input type="password" name="contaseña" required> <br>
+            <input type="submit" name="" value="Ingresar"> <br>
+            <br>
+            <br>
+        </section> 
+    </body>
+
+    <!--formularios ingresar empleado-->
+    <body>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="estilos.css" rel="stylesheet">
+        <title> Formulario Ingresar </title>
+    </head>
+
+    <body>
+        <section class="form-register">
+            <h4>Formulario registro empleado</h4>
+            <label for="nombre">Ingresar nombre:</label> 
+            <input type="text" name="nombre"required> <br>
+            <label for="apellido">Ingresar apellido:</label> 
+            <input type="text" name="apellido"required> <br>
+            <label for="telefono">Ingresar número de telefóno:</label> 
+            <input type="tel" name="telefono"required> <br>
+            <label for="correo">Ingresar correo electrónico:</label> 
+            <input type="email" name="correo" required> <br>
+            <label for="cargo">Ingresar cargo:</label> 
+            <input type="text" name="cargo"required> <br>
+            <input type="submit" name="" value="Ingresar"> <br>
+            <br>
+            <br>
+        </section> 
+    </body>
+
+    <!--formularios ingresar servicio-->
+    <body>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="estilos.css" rel="stylesheet">
+        <title> Formulario Ingresar </title>
+    </head>
+
+    <body>
+        <section class="form-register">
+            <h4>Formulario ingresar servicio</h4>
+            <label for="nombre">Nombre Servicio:</label> 
+            <input type="text" name="nombre"required> <br>
+            <label for="descripción">Descripción:</label> 
+            <input type="text" name="descripción"required> <br>
+            <label for="Precio">Precio:</label> 
+            <input type="text" name="Precio"required> <br>
+            <input type="submit" name="" value="Guardar"> <br>
+            <br>
+            <br>
+        </section> 
+    </body>
+
+     <!--formularios ingresar producto-->
+    <body>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="estilos.css" rel="stylesheet">
+        <title> Formulario Ingresar </title>
+    </head>
+
+    <body>
+        <section class="form-register">
+            <h4>Formulario ingresar producto</h4>
+            <label for="nombre">Nombre producto:</label> 
+            <input type="text" name="nombre"required> <br>
+            <label for="descripción">Descripción:</label> 
+            <input type="text" name="descripción"required> <br>
+            <label for="Precio">Precio:</label> 
+            <input type="text" name="Precio"required> <br>
+            <input type="submit" name="" value="Guardar"> <br>
+            <br>
+            <br>
+        </section> 
+    </body>
+
+    <!--formularios Agendar-->
+    <body>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="estilos.css" rel="stylesheet">
+        <title> Formulario Agendar </title>
+    </head>
+
+    <body>
+        <section class="form-register">
+            <h4>Formulario ingresar producto</h4>
+            <label for="fecha">Fecha:</label> 
+            <input type="date" name="fecha"> <br>
+            <label for="hora">Hora:</label> 
+            <input type="time" name="hora"> <br>
+
+        <select name="Servicios de cabello[]" size="3" multiple>
+            <option value="1">Corte</option>
+            <option value="2">Cepillado</option>
+            <option value="3">Peinado</option>
+        </select>
+        <select name="Servicios de tintura[]" size="3" multiple>
+            <option value="1">Tinte plano</option>
+            <option value="2">Tinte cubrimiento de canas</option>
+            <option value="3">Tinte con decoloración</option>
+        </select>
+        <select name="Servicios de uñas[]" size="2" multiple>
+            <option value="1">Manicure</option>
+            <option value="2">Pedicure</option>
+        </select>
+        <select name="Servicios de estética[]" size="3" multiple>
+            <option value="1">Masaje relajante</option>
+            <option value="2">Limpieza facial</option>
+            <option value="3">Masaje de reducción</option>
+        </select>
+        <select name="Empleado[]" size="3" multiple>
+            <option value="1">Tatiana perez-manicurista</option>
+            <option value="2">Andrea Grijales-esteticista</option>
+            <option value="3">Luisa López-manicurista</option>
+            <option value="4">Sebastian Ramirez-estilista</option>
+        </select>
+            <input type="submit" name="" value="Guardar"> <br>
+            <br>
+            <br>
+        </section> 
+    </body>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Eliana´s Spa</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,800"
+      rel="stylesheet"
+    />
+    <!-- https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans -->
+    <link href="css/all.min.css" rel="stylesheet" />
+    <!-- https://fontawesome.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- https://getbootstrap.com -->
+    <link href="css/estilos.css" rel="stylesheet" />
+    <!--
+
+Cuerpo pagina REGISTRARSE Eliana´s Spa
+
+-->
+  </head>
+  <body>
+    <!-- Encabezado de página -->
+    <div class="container-fluid">
+      <div class="tm-site-header">
+        <div class="row">
+          <div class="col-12 tm-site-header-col">
+            <div class="tm-site-header-left">
+              <img src="img/logo.png" class="logo_ing" />
+              <h1 class="tm-site-name">Eliana´s Spa</h1>
+            </div>
+            <div class="tm-site-header-right tm-menu-container-outer">
+              <!--barra-->
+              <nav class="barra barra-expand-lg">
+                <!-- Collapse button -->
+                <button
+                  class="barra-toggler toggler-example"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#barraSupportedContent1"
+                  aria-controls="barraSupportedContent1"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="dark-blue-text"
+                    ><i class="fas fa-bars fa-1x"></i
+                  ></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div
+                  class="collapse barra-collapse tm-nav"
+                  id="barraSupportedContent1"
+                >
+                  <!-- Links -->
+                  <ul class="barra-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link tm-nav-link" href="index.php"
+                        >Home<span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link tm-nav-link" href="registro.html"
+                        >Registrarse</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link tm-nav-link" href="login.php"
+                        >Iniciar sesión</a
+                      >
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link tm-nav-link" href="nosotros.html"
+                        >Nosotros</a
+                      >
+                    </li>
+                  </ul>
+                  <!-- Links -->
+                </div>
+                <!-- Contenido -->
+              </nav>
+              <!--/.barra-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="tm-main-bg tm-contact-bg"></div>
+        </div>
+      </div>
+
+      <!-- Principal -->
+      <main>
+        <!-- Sesion de bienvenida -->
+        <section class="tm-welcome">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="tm-section-header tm-header-floating">
+                Registrate aquí
+              </h2>
+            </div>
+          </div>
+
+          <div class="row tm-welcome-row">
+            <div class="col-lg-6 mb-5 tm-contact-box">
+              <div class="tm-contact-form-wrap">
+                <form id="contact-form" class="tm-contact-form">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="contact_name"
+                      name="nombre"
+                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                      placeholder="Nombre"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="contact_username"
+                      name="usuario"
+                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                      placeholder="Nombre de usuario"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      id="contact_password"
+                      name="password"
+                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                      placeholder="Contraseña"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      id="contact_email"
+                      name="email"
+                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="contact_address"
+                      name="direccion"
+                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                      placeholder="Dirección"
+                      required
+                    />
+                  </div>
+                  <div class="form-group mb-0">
+                    <button
+                      type="submit"
+                      class="btn rounded-0 d-block ml-auto tm-btn-primary"
+                    >
+                      Enviar ahora!
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-5 tm-contact-box">
+              <div class="tm-double-border-1 tm-border-gray">
+                <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                  <p class="mb-4">
+                    <a rel="nofollow" target="_parent" href="index.php"
+                      >Eliana´s Spa</a
+                    >
+                    Se encargará de proteger tus datos personales.
+                  </p>
+                  <p class="mb-3">Bogotá - Colombia 2024</p>
+                  <p class="mb-1">
+                    Tel: <a href="tel:3045241440" class="tm-link">3045241440</a>
+                  </p>
+                  <p>
+                    Email:
+                    <a href="mailto: Elianasspa@gmail.com" class="tm-link"
+                      >Elianasspa@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer>Copyright &copy; 2024 Eliana´s Spa</footer>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script>
+    document
+      .getElementById("contact-form")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(this);
+
+        fetch("./backend/registro.php", {
+          method: "POST",
+          body: formData,
+        })
+          .then((response) => response.text())
+          .then((data) => {
+            if (data.trim() === "Registro exitoso") {
+              alert("Registro exitoso");
+              //limpiar formulario
+              document.getElementById("contact-form").reset();
+            } else {
+              alert("Error en el registro: " + data);
+            }
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      });
+  </script>
+</html>

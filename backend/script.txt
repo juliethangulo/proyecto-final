@@ -1,0 +1,25 @@
+-- Crear la base de datos elianaspa
+CREATE DATABASE elianaspa;
+
+-- Usar la base de datos elianaspa
+USE elianaspa;
+
+-- Crear la tabla usuarios
+CREATE TABLE usuarios (
+    email VARCHAR(255) PRIMARY KEY,
+    usuario VARCHAR(100) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    direccion VARCHAR(255)
+);
+
+-- Crear la tabla citas
+
+CREATE TABLE citas (
+    email VARCHAR(80),
+    nombre_cliente VARCHAR(80),
+    hora VARCHAR(80),
+    fecha VARCHAR(80),
+    observaciones VARCHAR(80),
+    tipo_servicio VARCHAR(80)
+);
